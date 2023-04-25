@@ -8,6 +8,59 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 class="bg-blue-600 ">asd</h1>
+<section class="h-screen w-full">
+    <nav
+        class="flex bg-[#002B5B]  p-4 text-white sticky top-0 justify-between items-center 2xl:p-10 2xl:justify-evenly ">
+        <h1><a class="2xl:text-8xl text-2xl ml-10" href="#">Rumah-Rumahan</a></h1>
+        <div>
+
+            <!-- hamburger start -->
+            <div id="hamburger" name="hamburger" class="flex flex-col mt-1 gap-1 mr-10 cursor-pointer lg:hidden">
+                <span class="w-6 h-[3px] bg-white transition duration-300 ease-in-out origin-top-left "></span>
+                <span class="w-6 h-[3px] bg-white transition duration-300 ease-in-out"></span>
+                <span class="w-6 h-[3px] bg-white transition duration-300 ease-in-out origin-bottom-left"></span>
+            </div>
+            <!-- hamburger end -->
+
+            <!-- nav start -->
+            <div id="nav-menu"
+                class="navnull absolute z-50 left-0 top-[64px] w-full  bg-[#002B5B] text-center lg:static lg:flex lg:opacity-100 lg:visible">
+                <ul class="lg:mr-10 lg:gap-x-10 lg:flex ">
+                    <li>
+                        <a href="#"
+                            class="text-xl lg:border-b-4 lg:border-[#EA5455] px-2 py-1 block bg-[#EA5455] lg:bg-inherit 2xl:text-6xl">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="text-xl 2xl:text-6xl hover:bg-[#E4DCCF] hover:text-slate-900 lg:hover:border-b-4  px-2 py-1  block transition-all active:scale-95 active:opacity-80 lg:hover:bg-inherit lg:hover:text-white">
+                            About
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"
+                            class="text-xl hover:bg-[#E4DCCF] hover:text-slate-900 2xl:text-6xl lg:hover:border-b-4  px-2 py-1  block transition-all active:scale-95 active:opacity-80 lg:hover:bg-inherit lg:hover:text-white">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- nav end -->
+        </div>
+
+    </nav>
+
+    <header class="bg-gray-200 flex justify-center h-[360px] w-full 2xl:h-[60%]">
+        <div class=" h-full w-full lg:w-[60%] bg-no-repeat bg-[length:110%_120%] bg-center"
+            style="background-image: url('img/terrah-holly-pmhdkgRCbtE-unsplash.jpg');">
+
+        </div>
+    </header>
+
+</section>
+a
+
+<script src="../js/hamburger.js"></script>
 </body>
 </html>
